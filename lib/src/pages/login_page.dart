@@ -53,13 +53,13 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Login Page'),
+        title: const Text('アカウント設定'),
       ),
       body: Center(
         child: SingleChildScrollView(
           child: ElevatedButton(
             onPressed: () => connectToMetamask(),
-            child: const Text("Connect with Metamask"),
+            child: const Text("メタマスクと連携する"),
             style: ElevatedButton.styleFrom(
               onPrimary: Colors.black,
             ),
