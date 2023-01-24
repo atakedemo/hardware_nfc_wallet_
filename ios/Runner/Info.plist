@@ -54,6 +54,19 @@
 	<false/>
 	<key>NFCReaderUsageDescription</key>
 	<string>For interacting with NFC tags</string>
+	<key>com.apple.developer.nfc.readersession.felica.systemcodes</key>
+	<array>
+		<string>0003</string>
+		<string>12fc</string>
+	</array>
+	<key>com.apple.developer.nfc.readersession.iso7816.select-identifiers</key>
+	<array>
+		<string>D392F000260100000001</string>
+		<string>D3921000310001010408</string>
+		<string>D3921000310001010100</string>
+		<string>D3921000310001010401</string>
+	</array>
+	
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>sms</string>
